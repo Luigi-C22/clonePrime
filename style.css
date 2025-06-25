@@ -6,6 +6,23 @@
   padding: 0;
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Site Elements */
+#prime_logo{
+    width: 100px;
+}
+
+.search-lens {
+    cursor: pointer;
+}
+
+a.nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
 /* Bootstrap Overrides */
 .bg-dark {
     background-color: #18212c !important;
