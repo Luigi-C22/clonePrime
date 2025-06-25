@@ -1,0 +1,12 @@
+/* global settings */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Bootstrap Overrides */
+.bg-dark {
+    background-color: #18212c !important;
+}
