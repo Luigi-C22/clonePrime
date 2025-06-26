@@ -18,7 +18,9 @@ body {
 .search-lens {
     cursor: pointer;
 }
-
+img.user-icon {
+    width: 35px;
+}
 a.nav-link.active {
     font-weight: bold;
     text-decoration: underline;
