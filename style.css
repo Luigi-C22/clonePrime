@@ -33,3 +33,7 @@ img.movie-tab {
 .bg-dark {
     background-color: #18212c !important;
 }
+
+a.see-link {
+    text-decoration: none;
+}
