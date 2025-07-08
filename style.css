@@ -29,6 +29,14 @@ a.nav-link.active {
 img.movie-tab {
     width: 250px;
 }
+
+p.text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+   width: 100%;
+}
+
 /* Bootstrap Overrides */
 .bg-dark {
     background-color: #18212c !important;
