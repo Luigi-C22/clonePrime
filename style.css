@@ -37,6 +37,15 @@ p.text-ellipsis {
    width: 100%;
 }
 
+div.my-box{
+  width: 500px;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+   overflow: hidden;
+
+}
+
 /* Bootstrap Overrides */
 .bg-dark {
     background-color: #18212c !important;
