@@ -49,6 +49,15 @@ div.my-box {
   overflow: hidden;
 
 }
+div.movie-description {
+  width: 250px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;  /* Deprecated, but still works in some browsers */
+  overflow: hidden;
+}
+
 
 /* Bootstrap Overrides */
 .bg-dark {
